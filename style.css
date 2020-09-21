@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 40%; 
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 13px 0px;
+
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0px;
+    
+}
+.box input{
+    background: none;
+    width: 75%;
+    outline:  none;
+    border: none;
+    color: rgba(202, 43, 43, 0.589);
+    padding: 5px 10px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+ .btn{
+     cursor: pointer;
+     outline: none;
+     width: 25%;
+     margin: 12px 0;
+     padding: 10px 21px;
+     color: white;
+     border-radius: 10px ;
+     border: 2px solid purple;
+     font-size: 18px;
+     background: none;
+     font-weight: bold;
+ }
+
+ .btn:hover{
+    color: rgb(228, 13, 13);
+    
+    background: white;
+
+}
+ 
+ .logo img{
+    float: right;
+    position: relative;
+ }
